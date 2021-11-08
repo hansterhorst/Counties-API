@@ -1,0 +1,63 @@
+root{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.world-map img {
+    width: 100%;
+}
+
+#countries{
+    background-color: #fafafa;
+    padding: 2rem;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#countries ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#countries li {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 5px 15px 0;
+}
+
+#countries li div {
+    display: flex;
+    align-items: center;
+}
+
+#countries p {
+    font-size: 20px;
+    display: inline;
+    margin: 0 0 1px;
+}
+
+#countries img {
+    width: 40px;
+    height: 25px;
+    border: 2px solid #eee;
+    margin-right: 5px;
+    object-fit: cover;
+}
